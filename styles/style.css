@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* !------------------------   header section style------------------ start   ------------------------*/
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 100vh;
+  padding: 0 8%;
+  background-image: url(../new-year-new-me/images/banner/banner3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#header div {
+  width: 494px;
+  text-align: end;
+}
+
+#header div h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+
+#header div p {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#header .contact-us-btn {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 14px 26px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+#header .contact-us-btn:hover {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+}
+
+/* !------------------------   header section style------------------  end  ------------------------*/
+
+
+
+/* !------------------------   failure section style------------------   start   ------------------------*/
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.container .person-img {
+  width: 469px;
+  height: 523px;
+}
+
+.container h1{
+  width: 288px;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.container p{
+  width: 416px;
+  color: #444343;
+  margin: 30px 0;
+}
+
+.container ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+.container ul li i{
+  color: rgb(102, 183, 102);
+}
+
+/* !------------------------  failure section style  ------------------   end   ------------------------*/
+
+
+
+/* !------------------------  failure section style  ------------------   start   ------------------------*/
